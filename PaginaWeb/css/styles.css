@@ -9,7 +9,6 @@ header {
     color: #fff;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -19,7 +18,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-left: 20px;
 }
 
@@ -60,3 +59,18 @@ footer {
     width: 100%;
 }
 
+.titulo {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase; 
+    text-align: center; 
+    word-spacing: 10px; 
+    letter-spacing: 10px; 
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
